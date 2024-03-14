@@ -1,4 +1,4 @@
-package TaskTwo;
+package Task2;
 
 public class FindFemFejl {
 
