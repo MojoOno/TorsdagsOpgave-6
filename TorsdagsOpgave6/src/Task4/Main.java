@@ -15,6 +15,7 @@ public class Main {
         System.out.println(square1.getArea());
         System.out.println(square2.getArea());
         System.out.println("\n"); //Printer en ny linje for at se pænt ud
+
         builder.addShape(circle1);
         builder.addShape(circle2);
         builder.addShape(square1);
