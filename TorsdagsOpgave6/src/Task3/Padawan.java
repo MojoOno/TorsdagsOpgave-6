@@ -8,6 +8,7 @@ public class Padawan extends Person {
 
     public Padawan(String name, ArrayList<String> passedCourses) {
         super(name);
+
     }
 
     @Override

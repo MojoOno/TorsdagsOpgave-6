@@ -28,7 +28,7 @@ public class Cinema {
     // In that case, change the value to X and return true.
     // If the seat is already reserved, return false.
     public boolean reserve(int rows, int seat) {
-        if (seats[rows-1][seat-1].equals("0")) {
+        if (seats[rows-1][seat-1].equals("O")) {
             seats[rows-1][seat-1] = "X";
             return true;
         }
@@ -36,8 +36,8 @@ public class Cinema {
     }
 
     public boolean cancelReservation(int rows, int seat) {
-        if (seats[rows][seat].equals("X")) {
-            seats[rows][seat] = "O";
+        if (seats[rows-1][seat-1].equals("X")) {
+            seats[rows-1][seat-1] = "O";
             return true;
         }
         return false;

@@ -11,4 +11,5 @@ public class Circle implements Shape{
     public double getArea() {
         return (3.14 *(this.radius* this.radius));
     }
+
 }

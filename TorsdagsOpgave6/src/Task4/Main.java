@@ -1,5 +1,7 @@
 package Task4;
 
+import java.lang.reflect.Array;
+
 public class Main {
     public static void main(String[] args) {
         Circle circle1 = new Circle(2);
